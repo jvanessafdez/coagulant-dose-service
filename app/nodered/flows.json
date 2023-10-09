@@ -1,0 +1,123 @@
+[
+    {
+        "id": "62cb95a836f2eaed",
+        "type": "ui_form",
+        "z": "ebe939f5b656801d",
+        "name": "",
+        "label": "",
+        "group": "548889e629a90858",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "options": [
+            {
+                "label": "Ph",
+                "value": "agua_cruda_ph",
+                "type": "number",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Color (UPC)",
+                "value": "agua_cruda_color",
+                "type": "number",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Alcalinidad (mg/L)",
+                "value": "agua_cruda_alcalinidad",
+                "type": "number",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Conductividad (uS/cm^2)",
+                "value": "agua_cruda_conductividad",
+                "type": "number",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Vel. Viento (m/s)",
+                "value": "vel_viento",
+                "type": "number",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Temp. Humeda (°C)",
+                "value": "temp_humeda",
+                "type": "number",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Precipitación (mm)",
+                "value": "precipitacion",
+                "type": "number",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Caudal (L/s)",
+                "value": "caudal",
+                "type": "number",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Turbiedad (NTU)",
+                "value": "turbiedad",
+                "type": "number",
+                "required": true,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "agua_cruda_ph": "",
+            "agua_cruda_color": "",
+            "agua_cruda_alcalinidad": "",
+            "agua_cruda_conductividad": "",
+            "vel_viento": "",
+            "temp_humeda": "",
+            "precipitacion": "",
+            "caudal": "",
+            "turbiedad": ""
+        },
+        "payload": "",
+        "submit": "Aplicar",
+        "cancel": "Cancelar",
+        "topic": "req.body",
+        "topicType": "msg",
+        "splitLayout": true,
+        "className": "",
+        "x": 290,
+        "y": 360,
+        "wires": [
+            [
+                "5b88d655a8cc563e"
+            ]
+        ]
+    },
+    {
+        "id": "548889e629a90858",
+        "type": "ui_group",
+        "name": "Parametros del Modelo",
+        "tab": "db1331bbcf395e1a",
+        "order": 2,
+        "disp": true,
+        "width": "13",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "db1331bbcf395e1a",
+        "type": "ui_tab",
+        "name": "Dosis",
+        "icon": "dashboard",
+        "order": 2,
+        "disabled": false,
+        "hidden": true
+    }
+]
